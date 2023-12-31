@@ -1,0 +1,7 @@
+pyodbc==5.0.1
+fastapi==0.104.1
+sqlanydb==1.0.13
+uvicorn==0.23.2
+pydantic==2.4.2
+gunicorn==21.2.0
+python-dotenv==0.17.1
