@@ -24,7 +24,7 @@ def importItem(api_data: ApiCallModel):
         
         return item_data
     except Exception as e:
-        # create jeeves object    
+        # create database object    
         database = Database(server, dbname)
         
         database.update_log(artnr, str(e), processid, 'E')
